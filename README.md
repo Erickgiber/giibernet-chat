@@ -11,3 +11,16 @@ te dirijes a la carpeta donde está ubicado el clon del respo.
 y ahi solo colocas el comando npm start!
 
 ### ❤ Made by Giiber Developer
+
+## Screenshots
+![alt text](https://i.ibb.co/FBx9DPd/Screenshot-1.png)
+
+![alt text](https://i.ibb.co/BNYXyYF/Screenshot-2.png)
+
+![alt text](https://i.ibb.co/xCCSpYW/Screenshot-3.png)
+
+![alt text](https://i.ibb.co/ZHbRFVD/Screenshot-4.png)
+
+![alt text](https://i.ibb.co/Y03WwGH/Screenshot-5.png)
+
+![alt text](https://i.ibb.co/rfFw47b/Screenshot-6.png)
