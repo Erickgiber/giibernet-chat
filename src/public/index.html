@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Chat JavaScript GiiberNet</title>
+	<title> Chat | Giiber Net</title>
 	<!-- BOOTSTRAP 
 	<link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	-->
@@ -12,10 +12,6 @@
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-
-	<nav>
-		<a href="/">GiiberNet - Chat</a>
-	</nav>
 	
 
 <div class="username-quest" id="nickWrap">
@@ -26,8 +22,7 @@
 	<div class="card-body">
 		<p id="nickError"></p>
 		<form id="nickForm">
-			<input type="text" id="nickname" class="form-control">
-
+			<input autocomplete="false" maxlength="10" required type="text" id="nickname" class="form-control">
 			<button type="submit" class="btn btn-warning mt-2">Send</button>
 		</form>
 	</div>
@@ -40,13 +35,13 @@
 		
 		<div class="tarjeta">
 			<div class="tarjeta-header">
-				<h4>Let's Chat</h4>
+				<h4>Giiber Net</h4>
 			</div>
 			<div id="chat" class="tarjeta-body"></div>
 
 			<form id="message-form" class="tarjeta-fotter">
 
-					<input autocomplete="false" type="text" id="message" class="form-control">
+					<input autocomplete="false" type="text" id="message" required class="form-control">
 				<div class="input-group-append">
 				<button type="submit" class="btn btn-warning">
 					Send

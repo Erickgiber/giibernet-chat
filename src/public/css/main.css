@@ -1,1 +1,101 @@
-*{box-sizing:border-box;margin:0;padding:0;transition:.3s}body{background:#151515;display:flex;justify-content:space-between;align-items:center;flex-direction:column;color:#fff;font-family:arial}a{text-decoration:none}nav{display:flex;width:100%;height:15vh;justify-content:center;align-items:center;background-color:#101010}nav a{color:#fff;font-size:calc(1em + 1vw)}#contentWrap{display:none}#span{width:15px;height:15px;border-radius:50%;background-color:#00d600;display:inline-block;margin-right:5px}.contenedor{display:flex;flex-direction:row;justify-content:space-between;margin-top:20px;width:90vw;height:1fr}.hijo-contenedor{display:flex;flex-direction:row;justify-content:center;align-items:flex-start}.tarjeta{background-color:#252525;color:#fff;margin-right:15px;width:380px;min-height:50vh;display:flex;flex-direction:column;justify-content:space-between;font-size:17px}.tarjeta-header{border-bottom:3px solid #202020;background-color:#191919;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:10px;font-size:calc(.7em + .7vw)}.tarjeta-body{padding:10px;padding-bottom:0}.tarjeta-body b,.tarjeta-body span{vertical-align:8px}.userss{min-width:100px;width:150px;max-width:1fr}.card-header{display:flex;justify-content:center;align-items:center;padding:3px;background-color:#191919}.card-body{display:flex;flex-direction:row;justify-content:space-between;align-items:center;padding:5px;background-color:#101010;font-weight:bolder}#usernames{width:100%;height:100%}#usernames p{border:2.3px solid transparent}.tarjeta-fotter{display:flex;justify-content:space-evenly;align-items:center}.username-quest{background-color:#101010;color:#fff;width:80%;height:15vh;display:flex;flex-direction:column;justify-content:space-between;align-items:center;margin-top:80px;user-select:none;box-shadow:0 3px 4px 0 rgba(0,0,0,.3)}.namewat{width:100%;height:30px;background-color:#131313;margin:5px;margin-top:0;display:flex;justify-content:center;align-items:center}input{outline:0;background-color:#181818;color:#fff;padding:5px 15px;border:none;margin:10px}input:focus{background-color:#151515}button{outline:0;background-color:#181818;color:#fff;border:none;font-size:calc(.5em + .5vw);width:80px;height:30px;cursor:pointer;font-weight:700}button:hover{background-color:#101010}
+:root
+{
+  --body: #1a1d21;
+  --main_color: #282c34;
+  --main_color_dark: #1e2126;
+  --main_color_dark_2: #14161a;
+  --text_color: #fff;
+  --text_color_dark: darkgray;
+  --text_color_alt: #000;
+  --dark_background: rgba(0,0,0,0.5);
+  --light_background: rgba(255,255,255, 0.05);
+  --profile_img: url();
+  --main_color_blue: #7EB0F5;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;transition:.3s}body{background:#151515;display:flex;justify-content:space-between;align-items:center;flex-direction:column;color:#fff;font-family:arial}a{text-decoration:none}nav{display:flex;width:100%;height:15vh;justify-content:center;align-items:center;background-color:#101010}nav a{color:#fff;font-size:calc(1em + 1vw)}#contentWrap{display:none}#span{width:15px;height:15px;border-radius:50%;background-color:#00d600;display:inline-block;margin-right:5px}.contenedor{display:flex;flex-direction:row;justify-content:space-between;margin-top:20px;width:80vw;height:1fr}.hijo-contenedor{display:flex;flex-direction:row;justify-content:center;align-items:flex-start}.tarjeta{background-color:#252525;color:#fff;margin-right:15px;width:380px;min-height:50vh;display:flex;flex-direction:column;justify-content:space-between;font-size:17px}.tarjeta-header{border-bottom:3px solid #202020;background-color:#191919;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:10px;font-size:calc(.7em + .7vw)}.tarjeta-body{padding:10px;padding-bottom:0}.tarjeta-body b,.tarjeta-body span{vertical-align:8px}.userss{min-width:100px;width:150px;max-width:1fr}.card-header{display:flex;justify-content:center;align-items:center;padding:3px;background-color:#191919}.card-body{display:flex;flex-direction:row;justify-content:space-between;align-items:center;padding:5px;background-color:#101010;font-weight:bolder}#usernames{width:100%;height:100%}#usernames p{border:2.3px solid transparent}.tarjeta-fotter{display:flex;justify-content:space-evenly;align-items:center}.username-quest{background-color:#101010;color:#fff;width:80%;height:15vh;display:flex;flex-direction:column;justify-content:space-between;align-items:center;margin-top:80px;user-select:none;box-shadow:0 3px 4px 0 rgba(0,0,0,.3)}.namewat{width:100%;height:30px;background-color:#131313;margin:5px;margin-top:0;display:flex;justify-content:center;align-items:center}input{outline:0;background-color:#181818;color:#fff;padding:5px 15px;border:none;margin:10px}input:focus{background-color:#151515}button{outline:0;background-color:#181818;color:#fff;border:none;font-size:calc(.5em + .5vw);width:80px;height:30px;cursor:pointer;font-weight:700}button:hover{background-color:#101010}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+    background: var(--body);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--text_color_dark);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--main_color_blue);
+    border-radius: 5px;
+}
+
+
+.tarjeta
+{
+	max-height: 380px !important;
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+	border-radius: 10px !important;
+}
+
+.tarjeta-body,
+{
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+}
+
+.tarjeta-fotter
+{
+	left: 50%;
+	transform: translateX(-75%);
+	bottom: 200px !important;
+
+	position: absolute; !important;
+	background-color: #202020 !important;
+	padding:  7px !important;
+	border-radius: 5px !important;
+}
+
+@media (max-width: 500px)
+{
+	.contenedor
+	{
+		width: calc(100vw - 20px);
+		height: auto;
+		flex-direction: column !important;
+	}
+
+	.hijo-contenedor
+	{
+		width: 100% !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		gap: 10px;
+	}
+	.tarjeta
+	{
+		width: calc(100% - 20px);
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.userss
+	{
+		width: calc(100% - 20px);
+	}
+
+	#nickForm
+	{
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+	}
+
+	.tarjeta-fotter
+	{
+		bottom: 20px !important;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+

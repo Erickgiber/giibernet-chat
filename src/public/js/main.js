@@ -13,6 +13,7 @@ $(function() {
 	const $nickForm = $('#nickForm');
 	const $nickError = $('#nickError');
 	const $nickname = $('#nickname');
+	const $profile_img = $('#profile_img');
 
 	const $users = $('#usernames');
 
@@ -51,6 +52,5 @@ $(function() {
 		};
 		$users.html(html); 
 	});
-
 
 });
