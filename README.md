@@ -1,4 +1,4 @@
-# Giibernet Chat | Giiber Developer
+# Giibernet Chat | Erickgiber
 
 ## chat elaborado con Node JS
 
@@ -8,7 +8,7 @@
 
 Puedes clonar el respositorio, abres la consola del sistema te dirijes a la carpeta donde está ubicado el clon del repositorio y escribes en la consola: npm start y enter!
 
-### ❤ Made by Giiber Developer
+### ❤ Made by Erickgiber
 
 ## Screenshots
 ![alt text](https://i.ibb.co/FBx9DPd/Screenshot-1.png)
